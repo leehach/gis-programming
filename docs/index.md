@@ -1,10 +1,3 @@
----
-title: "GUS 5031: GIS Programming"
-author: Prof. Hachadoorian
-date: Semester Year
-colorlinks: True
----
-
 Meeting:
 
 * Time, Location
