@@ -37,7 +37,7 @@ When accessed on campus or through the Temple Library proxy server ([*Python for
 
 Online exercises will be assigned from DataCamp:
 
-![](images/data-camp-logo.svg)\
+![](images/data-camp-logo.png)\
 
 ## Schedule in Brief
 
