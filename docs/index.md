@@ -1,5 +1,3 @@
- 
-
 ---
 title: "GUS 5031: GIS Programming"
 author: Prof. Hachadoorian
