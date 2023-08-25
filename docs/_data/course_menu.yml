@@ -7,7 +7,7 @@
     - name: Assignments & Grading
       link: /assignments_and_grading
     - name: Additional Python Programming Resources
-      link: /additional_python_programming_resources.md
+      link: /additional_python_programming_resources
     - name: General Policies
       link: /general_policies
 - label: Software Installation and Setup
