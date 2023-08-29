@@ -1,6 +1,6 @@
 Meeting:
 
-* Time, Location
+* Monday 5:30-8pm, Gladfelter 336
 
 Instructor Info:
 
@@ -8,11 +8,9 @@ Instructor Info:
 * 104 Gladfelter Hall – In GIS Studio, enter 103A
 * [Lee.Hachadoorian@temple.edu](mailto:Lee.Hachadoorian@temple.edu)
 * Office Hours:
-    * Monday 1-2pm (office, virtual)
-    * Tuesday 1-2pm (virtual only)
-    * Wednesday 1-2pm (office only)
-
-<!--By appointment in Summer terms-->
+    * Monday 2:30-3:30pm 
+    * Tuesday 2:30-3:30 (office + virtual)
+    * Thursday 2:30-3:30
 
 # Overview
 
@@ -44,51 +42,49 @@ Online exercises will be assigned from DataCamp:
 * Week 1
     * Python Basics
     * Assignment Due
+* **LABOR DAY** - Note that because Labor Day, we are a week behind other courses, i.e., "Week 2" is the third week of the term, etc.
 * Week 2
     * Lists and Tuples
-    * Assignment Due
 * Week 3
     * ArcPy Tools
     * Quiz 1 - Python Basics, Strings
+    * DataCamp - Introduction to Python due
 * Week 4
     * Control of Flow, Conditionals
     * Quiz 2 - Python Basics, Math
-    * DataCamp - Introduction to Python due
 * Week 5
     * Loops
     * Quiz 3- Lists
 * Week 6
     * Dictionaries
     * Quiz 4 - Conditional Evaluation
+    * DataCamp - Intermediate Python for Data Science due
 * Week 7
     * Defining Functions
     * Quiz 5 - Loops
-    * DataCamp - Intermediate Python for Data Science due
-* **SPRING BREAK**
+    * Programming Assignment 1 - Vector Analysis due
 * Week 8
     * Pandas and GeoPandas
     * Quiz 6 - Dictionaries
-    * Programming Assignment 1 - Vector Analysis due [can this be moved earlier?]
+    * DataCamp - Python Data Science Toolbox (Part 1) due
 * Week 9
     * Quiz 7 - Defining Functions
-    * DataCamp - Python Data Science Toolbox (Part 1) due
 * Week 10
     * Student-Led Tutorial Presentation
     * Quiz 8 - Pandas Basics
+    * DataCamp - Choose Your Own Adventure due
 * Week 11
     * Student-Led Tutorial Presentation
-    * DataCamp - Choose Your Own Adventure due
     * Programming Assignment 2 - Spatial Data Catalog due
+* **FALL BREAK**
 * Week 12
     * Student-Led Tutorial Presentation
 * Week 13
     * Student-Led Tutorial Presentation
-    * Assignment Due
-* **FALL BREAK**
 * Week 14
     * Student-Led Tutorial Presentation
 * Finals Period
-    * Programming Assignment 3 due
+    * Programming Assignment 3 - Analysis Automation due
 
 ## Assignments in Brief
 
