@@ -12,6 +12,8 @@ defaults:
       path: ""
       type: "pages"
     values:
+      title: GIS Programming
+      subtitle: Fall 2023
       layout: page
       show_sidebar: false
       menubar: course_menu
