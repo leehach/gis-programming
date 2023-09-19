@@ -307,10 +307,9 @@ This assignment is worth 10 points, awarded 1 point for each of the following:
 
 #### Code Example
 
-In class, we demoed using `os.walk` to recursively walk a folder tree, and using Python's file input/output methods to write information about the folder contents to a file. The script that we ended up with is included here for your reference:
+In class, we demoed using `os.walk` to recursively walk a folder tree, and using Python's file input/output methods to write information about the folder contents to a file. A similar script is included here for your reference:
 
 ```python
-from __future__ import absolute_import, division, print_function
 import os
 
 folder_name = "c:/gispy/data/ch05"
@@ -319,11 +318,11 @@ fout = open("c:/gispy/scratch/list_files.txt", "w")
 
 for current_folder, folders, files in os.walk(folder_name):
    
-    fout.write("# {}\n\n".format(current_folder))
+    fout.write(f"# {current_folder}\n\n")
 
     for i, filename in enumerate(files):
-        # print(os.path.join(current_folder, filename))
-        fout.write("{}. {}\n".format(str(i + 1), filename))
+        print(os.path.join(current_folder, filename))
+        fout.write(f"{i + 1}. {filename}\n")
    
     fout.write("\n")
    
