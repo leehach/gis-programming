@@ -10,6 +10,11 @@
       link: /additional_python_programming_resources
     - name: General Policies
       link: /general_policies
+- label: Tips and Practice
+    - name: Loops Practice
+      link: /loops_practice
+    - name: Python Module Structure
+      link: /python_module_structure
 - label: Software Installation and Setup
   items:
     - name: Placeholder
