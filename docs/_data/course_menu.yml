@@ -11,6 +11,7 @@
     - name: General Policies
       link: /general_policies
 - label: Tips and Practice
+  items:
     - name: Loops Practice
       link: /loops_practice
     - name: Python Module Structure
