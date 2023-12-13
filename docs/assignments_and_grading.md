@@ -356,7 +356,7 @@ The assignment is worth 10 points. Points will be awarded as follows:
 
 * (1 point) Create a script that runs to completion with no errors.
 * (1 point) Use course coding conventions throughout.
-* (2points) Create a function that successfully downloads the data.
+* (2 points) Create a function that successfully downloads the data.
 * (2 points) Create a function that carries out the spatial analysis.
 * (2 points) Create a function that generates a map or report based on the output.
 * (1 point) Create a script which calls the functions in sequence for a specific implementation of the analysis.
