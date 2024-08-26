@@ -55,7 +55,7 @@ If you don't take any quizzes one week, you have given up one opportunity to pro
 * Quiz 2: Python Basics, Math
 * Quiz 3: Lists
 * Quiz 4: Conditional Evaluation
-* Quiz 5 Loops
+* Quiz 5: Loops
 
 ### Quiz 6-8 (3 points x three)
 
@@ -85,17 +85,17 @@ You are required to complete the following courses:
     * Ch 3 – Logic, Control Flow and Filtering should be completed during Module 4 – Control Flow, Conditionals
     * Ch 4 – Loops should be completed during Module 5 – Loops
     * The remaining three chapters must be completed during Module 6 – Dictionaries
-* [Python Data Science Toolbox (Part 1)](https://www.datacamp.com/courses/python-data-science-toolbox-part-1) due during Module 8 – Error Handling
+* [Introduction to Functions in Python](https://www.datacamp.com/courses/introduction-to-functions-in-python) due during Module 8 – Error Handling
     * Ch 1 Writing your own functions and Ch 2 Default arguments, variable-length arguments and scope should be completed during Module 7 – User-Defined Functions
     * The remaining one chapter must be completed during Module 8 – Error Handling
 
-You will complete one additional [DataCamp Python course](https://www.datacamp.com/courses/tech:python) of the your choosing. Suggested courses include:
+You will complete one additional [DataCamp Python course](https://app.datacamp.com/learn/courses?technologies=2) of the your choosing. Suggested courses include:
 
-* [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/courses/python-data-science-toolbox-part-2)
+* [Python Toolbox](https://app.datacamp.com/learn/courses/python-toolbox)
 * [Data Manipulation with Pandas](https://learn.datacamp.com/courses/data-manipulation-with-pandas)
 * [Working with Geospatial Data in Python](https://learn.datacamp.com/courses/working-with-geospatial-data-in-python)
-* [Data Types for Data Science](https://www.datacamp.com/courses/data-types-for-data-science)
-* [Network Analysis in Python](https://www.datacamp.com/courses/network-analysis-in-python-part-1)
+* [Introduction to Network Analysis in Python](https://www.datacamp.com/courses/network-analysis-in-python-part-1)
+* [Introduction to Data Visualization with Seaborn](https://app.datacamp.com/learn/courses/introduction-to-data-visualization-with-seaborn)
 
 You will have premium access to DataCamp courses for six months. You may choose to complete any additional courses you want to throughout the semester, and for a few weeks beyond the end of the semester.
 
@@ -109,7 +109,7 @@ These will be three short programming assignments that will build on material le
 
 ### Programming Assignment 1 - Vector Analysis (10 points)
 
-This assignment is based on [Lab 6 - Vector Operations](https://github.com/temple-geography/fundamentals-of-gis/blob/master/Lab_06_Vector_Operations.md) from GUS 5062 - Fundamentals of GIS. That lab exercises uses vector operations that you should be familiar with such as buffering, intersection, erasing, etc., to identify an area in Philadelphia suitable for a new store selling healthy foods. Many of you will have taken GUS 5062 and completed Lab 6 in ArcGIS. Now you will see how to automate it using ArcPy. For those of you unfamiliar with the exercise, reading the assignment at the end will give you a little more context.
+This assignment is based on [Lab 6 - Vector Operations](https://github.com/temple-geography/fundamentals-arcgis-pro/blob/master/Lab_06_Vector_Operations.md) from GUS 5062 - Fundamentals of GIS. That lab exercise uses vector operations that you should be familiar with such as buffering, intersection, erasing, etc., to identify an area in Philadelphia suitable for a new store selling healthy foods. Many of you will have taken GUS 5062 and completed Lab 6 in ArcGIS Pro. Now you will see how to automate it using ArcPy. For those of you unfamiliar with the exercise, reading the assignment prior to starting will give you a little more context.
 
 The criteria for the target area, and the data sources necessary for the analysis, are:
 
@@ -122,7 +122,7 @@ The criteria for the target area, and the data sources necessary for the analysi
 
 Begin by downloading all five shapefiles and unzipping them into a project folder. Unzip them so that all the shapefiles are at the same folder level. Do *not* have each shapefile in its own subfolder, as that will make referring to the file in code more verbose.
 
-Your Python script should be saved and run in the same folder as the unzipped data files. When you run the script using Spyder, Spyder should set the working directory to the script directory. If it doesn't, you can use the "Run configuration per file" dialog box (`CTRL`+`F6`) in Spyder to set the working directory to "The directory of the file being executed". To make the ArcGIS workspace match your Python working directory, your script should being with:
+Your Python script should be saved and run in the same folder as the unzipped data files. **TO BE COMPLETED: Instructions will be provided to make sure the script runs with the correct working directory.** To make the ArcGIS workspace match your Python working directory, your script should being with:
 
 ```python
 arcpy.env.workspace = os.getcwd()
@@ -142,7 +142,7 @@ With your workspace set correctly, each shapefile can be referred to in code usi
 
 #### ArcPy Toolbox Functions That You Will Use
 
-You will use the following ArcPy Toolbox functions in your analysis. Help for all these functions can be viewed within Spyder using `CTRL`+`I`, or by searching the documentation at ArcGIS.com. The names are specific enough that a Google search of, e.g., "ArcPy Buffer_analysis" will usually take you directly to the ArcGIS Pro or Desktop documentation for the tool. If the tool is discussed in the textbook, a page reference is given.
+You will use the following ArcPy Toolbox functions in your analysis. Help for all these functions can be viewed by searching the documentation at ArcGIS.com. The names are specific enough that a Google search of, e.g., "ArcPy Buffer_analysis" will usually take you directly to the ArcGIS Pro or Desktop documentation for the tool. If the tool is discussed in the textbook, a page reference is given.
 
 All of the following functions take as their first parameter a filename or list of filenames as inputs, and take as their second parameter an output filename that will get created on disk. They may have additional required or optional parameters.
 
@@ -154,7 +154,7 @@ All of the following functions take as their first parameter a filename or list 
 * `arcpy.Erase_analysis`.
 * `arcpy.MultipartToSinglepart_management`
 
-Additionally you will need the `arcpy.AddGeometryAttributes_management`tool. This function only takes an input file, which will be modified, as the first parameter (that is, no output file is specified). The required second parameter is the geometry attribute (or list of attributes) that you want to add. Use the following line of code to create a new field with the area of each feature. The new field will automatically be named `POLY_AREA`:
+Additionally you will need the `arcpy.AddGeometryAttributes_management` tool. This function only takes an input file, which will be modified, as the first parameter (that is, no output file is specified). The required second parameter is the geometry attribute (or list of attributes) that you want to add. Use the following line of code to create a new field with the area of each feature. The new field will automatically be named `POLY_AREA`:
 
 ```python
 arcpy.AddGeometryAttributes_management("your_file.shp", "AREA")
@@ -167,9 +167,9 @@ Note that if you search the ArcPy documentation you will find that there are oth
 
 #### Tips for Completing the Assignment
 
-* All of the data must be in the same projection. The downloaded shapefiles are all already in State Plane Pennsylvania South **except** the SEPTA Regional Rails Stations. You have to specify the output coordinate system when you call `arcpy.Project_management`, but keep in mind that you can pass the name of a `.prj` file to the `out_coor_system` parameter. *All of the other shapefiles are in the desired coordinate system*. Use the `.prj` from one of these files as input to this parameter. (Pay close attention to the filenames because the SEPTA High Speed Rail Stations are already in the correct coordinate system.)
+* All of the data must be in the same projection. The downloaded shapefiles are all already in State Plane Pennsylvania South **except** the SEPTA Regional Rails Stations. You have to specify the output coordinate system when you call `arcpy.Project_management`, but keep in mind that you can pass the name of a `.prj` file to the `out_coor_system` parameter. *All of the other shapefiles are in the desired coordinate system*. Use the `.prj` from one of these files as input to this parameter. (Pay close attention to the filenames. SEPTA High Speed Rail Stations are already in the correct coordinate system, and SEPTA High Speed Rail ≠ SEPTA Regional Rail.)
 * In each case where you have to create a buffer, you need to buffer points from two different sources. It will be easiest if you merge the point layers first. Then you only have to run the buffer once. It will also be useful to use `dissolve_option = "ALL"` to dissolve the buffers.
-* Each toolbox function will create a new shapefile on disk. You can inspect these in ArcCatalog or add them to an ArcMap document to see your progress. If you add a layer to ArcMap, make sure to remove it before proceeding. ArcGIS file locking may prevent Python from being able to work with the file.
+* Each toolbox function will create a new shapefile on disk. You can inspect these in ArcGIS Pro to see your progress. If do so, make sure to remove the layer or close ArcGIS Pro before proceeding. ArcGIS file locking may prevent Python from being able to work with the file.
 
 
 #### Deliverables

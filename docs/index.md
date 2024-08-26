@@ -1,13 +1,13 @@
 Meeting:
 
-* Monday 5:30-8pm, Gladfelter 336
+* Monday 5:30-8pm, Gladfelter 341
 
 Instructor Info:
 
 * Prof. Lee Hachadoorian
 * 104 Gladfelter Hall – In GIS Studio, enter 103A
 * [Lee.Hachadoorian@temple.edu](mailto:Lee.Hachadoorian@temple.edu)
-* Office Hours:
+* Office Hours (tentative):
     * Monday 2:30-3:30pm 
     * Tuesday 2:30-3:30 (office + virtual)
     * Thursday 2:30-3:30
