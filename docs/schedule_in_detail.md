@@ -24,13 +24,13 @@
         * Meeting: Loops (PfA 10-11)
     * Tues
         * **Due Date:** Quiz 3- Lists
-    * Fri
-        * **Due Date:** DataCamp - Intermediate Python for Data Science
 * Week 6 (10/7 - 10/11)
     * Mon
         * Meeting: Dictionaries (PfA 12, 18)
     * Tues
         * **Due Date:** Quiz 4 - Conditional Evaluation
+    * Fri
+        * **Due Date:** DataCamp - Intermediate Python
 * Week 7 (10/14 - 10/18)
     * Mon
         * Meeting: User-Defined Functions (PfA 15)
@@ -44,7 +44,7 @@
     * Tues
         * **Due Date:** Quiz 6 - Dictionaries
     * Fri
-        * **Due Date:** DataCamp - Python Data Science Toolbox (Part 1)
+        * **Due Date:** DataCamp - Introduction to Functions in Python
 * Week 9 (10/28 - 11/1)
     * Mon
         * Meeting: Student-Led Tutorial Presentation

@@ -58,7 +58,7 @@ Online exercises will be assigned from DataCamp:
 * Week 6
     * Dictionaries
     * Quiz 4 - Conditional Evaluation
-    * DataCamp - Intermediate Python for Data Science due
+    * DataCamp - Intermediate Python due
 * Week 7
     * Defining Functions
     * Quiz 5 - Loops
@@ -66,7 +66,7 @@ Online exercises will be assigned from DataCamp:
 * Week 8
     * Pandas and GeoPandas
     * Quiz 6 - Dictionaries
-    * DataCamp - Python Data Science Toolbox (Part 1) due
+    * DataCamp - Introduction to Functions in Python
 * Week 9
     * Quiz 7 - Defining Functions
 * Week 10
