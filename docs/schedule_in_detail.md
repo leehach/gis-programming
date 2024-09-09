@@ -23,7 +23,7 @@
     * Mon
         * Meeting: Loops (PfA 10-11)
     * Tues
-        * **Due Date:** Quiz 3- Lists
+        * **Due Date:** Quiz 3 - Lists
 * Week 6 (10/7 - 10/11)
     * Mon
         * Meeting: Dictionaries (PfA 12, 18)
