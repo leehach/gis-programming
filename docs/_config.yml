@@ -1,5 +1,5 @@
 title: GIS Programming
-description: Prof. Hachadoorian | Fall 2024
+description: Prof. Hachadoorian | Fall 2025
 remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 
 titles_from_headings:
@@ -13,7 +13,7 @@ defaults:
       type: "pages"
     values:
       title: GIS Programming
-      subtitle: Fall 2024
+      subtitle: Fall 2025
       layout: page
       show_sidebar: false
       menubar: course_menu

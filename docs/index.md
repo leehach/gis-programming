@@ -1,6 +1,6 @@
 Meeting:
 
-* Monday 5:30-8pm, Gladfelter 341
+* Tuesday 5:30-8pm, Gladfelter 341
 
 Instructor Info:
 
@@ -8,7 +8,7 @@ Instructor Info:
 * 104 Gladfelter Hall – In GIS Studio, enter 103A
 * [Lee.Hachadoorian@temple.edu](mailto:Lee.Hachadoorian@temple.edu)
 * Office Hours:
-    * Monday 2:30-3:30pm 
+    * Monday 2:30-3:30pm (virtual only)
     * Tuesday 2:30-3:30 (office + virtual)
     * Thursday 2:30-3:30
 
@@ -24,14 +24,14 @@ The latter part of the course will introduce Python geospatial programming outsi
 
 ## Prerequisites
 
-* Fundamentals of GIS (GUS 5062) with B- or better, or equivalent
+* Fundamentals of GIS (GUS 3062/5062) with B- or better, or equivalent
 * A laptop on which you can install software and data
 
 ## Text
 
 * [*Python for ArcGIS*](https://link.springer.com/book/10.1007/978-3-319-18398-5), by Laura Tateosian
 
-When accessed on campus or through the Temple Library proxy server ([*Python for ArcGIS* via proxy](https://link-springer-com.libproxy.temple.edu/book/10.1007/978-3-319-18398-5)), you will be able to download this textbook in its entirety for free. You are also ***REQUIRED*** to obtain a print copy. The Springer “MyCopy” service is a print-on-demand service which will allow you to order a softcover copy for $39.99. You must be accessing SpringerLink on campus or log in through the Temple Library proxy server to get access to the MyCopy print-on-demand service.
+When accessed on campus or through the Temple Library proxy server ([*Python for ArcGIS* via proxy](https://link-springer-com.libproxy.temple.edu/book/10.1007/978-3-319-18398-5)), you will be able to download this textbook in its entirety for free. You are also ***REQUIRED*** to obtain a print copy. The Springer "MyCopy" service is a print-on-demand service which will allow you to order a softcover copy for $39.99. You must be accessing SpringerLink on campus or log in through the Temple Library proxy server to get access to the MyCopy print-on-demand service.
 
 Online exercises will be assigned from DataCamp:
 
@@ -41,8 +41,6 @@ Online exercises will be assigned from DataCamp:
 
 * Week 1
     * Python Basics
-    * Assignment Due
-* **LABOR DAY** - Note that because Labor Day, we are a week behind other courses, i.e., "Week 2" is the third week of the term, etc.
 * Week 2
     * Lists and Tuples
 * Week 3
@@ -76,11 +74,11 @@ Online exercises will be assigned from DataCamp:
 * Week 11
     * Student-Led Tutorial Presentation
     * Programming Assignment 2 - Spatial Data Catalog due
-* **FALL BREAK**
 * Week 12
     * Student-Led Tutorial Presentation
 * Week 13
     * Student-Led Tutorial Presentation
+* **FALL BREAK**
 * Week 14
     * Student-Led Tutorial Presentation
 * Finals Period

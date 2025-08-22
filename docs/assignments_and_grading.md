@@ -4,6 +4,8 @@ This course will make use of a variant of [Specification Grading](https://sites.
 
 You will earn points along several **tracks**. Each track is worth up to 100 points. You must progress along ***ALL*** tracks to be successful in this course. Your final grade is based on the ***lowest*** score earned along any track.
 
+![](images/gis_programming_grading_chart.png)
+
 Tracks proceed linearly and assignments usually need to be completed in the designated order. For example, for quizzes, the material is cumulative, and you can't earn credit for Quiz 4 if you haven't passed Quiz 3. Often, later assignments in a track presume knowledge you will have acquired by completing earlier assignments.
 
 Some assignments proceed in milestones. In each case, you must proceed along the milestones in order. For example, for a term project, there will often be an initial topic statement, followed by an annotated bibliography (for a paper) or analysis plan (for an analytical project), a draft, and a final report. You cannot submit an annotated bibliography if your topic statement has not been approved, and you cannot submit a draft or final report if you haven't submitted an annotated bibliography or analysis plan.
@@ -275,7 +277,6 @@ Your script does not *need* any printed output, as the catalog itself is being w
 * Keep in mind that unlike the `print` function, the `file.write` method does not end with a newline! Thus, you have to add `"\n"` yourself for every write operation that you want to end with a newline. If you want a write operation to be followed by a blank line, you have to add ***two*** newlines (`"\n\n"`) at the end.
 * There are many ways to build a text string in Python. I strongly recommend that you use f-strings. It has been demonstrated repeatedly in class, so you should have the most practice with it.
 * The `Describe` object has different attributes depending on the type of spatial data. Checking the `dataType` will give you a clue as to what attributes to expect, or use the `hasattr` function as described above.
-* Remember to use the `from future` imports. In particular, make sure to use Python 3 style `print`ing if you have any `print` output in your script.
 * Remember to start small. Your first step should be a script that runs without errors even if it doesn't do very much! Assigning variable names, or stubbing a function that doesn't do anything is a good start. You can build up the script largely following the flow of the assignment. That is, first output names of workspaces. When that is working, *then* try to output spatial layer (file) names. When that is working, *then* try to output spatial layer characteristics. Make sure that each new addition generates working code before moving on to the next step.
 
 
@@ -312,18 +313,14 @@ In class, we demoed using `os.walk` to recursively walk a folder tree, and using
 ```python
 import os
 
-folder_name = "c:/gispy/data/ch05"
-
 fout = open("c:/gispy/scratch/list_files.txt", "w")
 
+folder_name = "c:/gispy/data/ch05"
 for current_folder, folders, files in os.walk(folder_name):
-   
     fout.write(f"# {current_folder}\n\n")
-
     for i, filename in enumerate(files):
         print(os.path.join(current_folder, filename))
         fout.write(f"{i + 1}. {filename}\n")
-   
     fout.write("\n")
    
 fout.close()
