@@ -65,9 +65,11 @@ If you don't take any quizzes one week, you have given up one opportunity to pro
 * Quiz 7: Defining Functions
 * Quiz 8: Pandas Basics
 
-### Exercises (1/2 point x eight)
+### Exercises (1 point x six)
 
 Each week during the first half of the course, exercises will be assigned from the textbook. The first handful are structured as practice quizzes (no points) in Canvas. Subsequent exercises involve modifying or creating short Python scripts. One question each week will be evaluated and bonus points awarded in the quizzes track for correct answers. The exercises must be submitted on time. Solutions will be posted to Canvas, so that you can check your work on questions that were not evaluated. We will review some of the exercises at the beginning of the class after the due date.
+
+Exercises are worth bonus points on the quiz track. If you earn 3 points on exercises, you do not need to take the final quiz. If you earn all 6 bonus points, you do not need to take the final two quizzes.
 
 ## DataCamp
 
