@@ -207,6 +207,8 @@ In class we demonstrated the use of the `os.walk` method to recursively walk a f
 
 You will make liberal use of `arcpy.Describe` (see PfA 9.3) to extract information about each workspace and each spatial layer. Following the textbook, you can use the variable name `desc` when you instantiate the `Describe` object.
 
+> **WARNING:** There is data in the Chapter 23 folder that throws an error when used with `arcpy.Describe`. Chapter 23 is not assigned this semester, and the `ch23` folder can be safely deleted. If you prefer, you can back it up somewhere outside of the `C:\gispy\data` folder.
+
 Markdown uses hashes (`#`) to indicate headings, with the number of hashes indicating the heading level. Use a first-level heading to print each workspace name and type, using the `baseName` and `dataType` method, respectively. Put the type in parentheses, and make sure to follow the heading with a blank line. Then print the path using the `catalogPath` method. The output Markdown should look like this:
 
 ```markdown
@@ -274,9 +276,10 @@ Your script does not *need* any printed output, as the catalog itself is being w
 
 * Start your assignment in a fresh script, which should be empty except for our usual imports.
 * Follow course coding conventions, including using [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) for variable and function names, putting all imports at the top, etc.
-* Comment your code. Briefly describe what a variable or object is, what a for-loop is iterating or intended to do, what each output statement accomplishes.
+* Comment your code. Briefly describe what each variable or object is, what each for-loop is iterating or intended to do, and what each output statement accomplishes.
 * Do ***not*** use command lines arguments (`sys.argv`) to control the script.
-* Assume the script will be run on a Windows computer with a correctly configured ArcPy environment, and with a data folder at `c:\gispy\data`.
+* Assume the script will be run on a Windows computer with a correctly configured ArcPy environment, and with a data folder at `C:\gispy\data`.
+* Cataloguing the entire `C:\gispy\data` folder will take a few minutes. You should probably test your script on a single chapter folder, such as `C:\gispy\data\ch01`. Then when your script is working, run it on the entire data folder.
 * Keep in mind that unlike the `print` function, the `file.write` method does not end with a newline! Thus, you have to add `"\n"` yourself for every write operation that you want to end with a newline. If you want a write operation to be followed by a blank line, you have to add ***two*** newlines (`"\n\n"`) at the end.
 * There are many ways to build a text string in Python. I strongly recommend that you use f-strings. It has been demonstrated repeatedly in class, so you should have the most practice with it.
 * The `Describe` object has different attributes depending on the type of spatial data. Checking the `dataType` will give you a clue as to what attributes to expect, or use the `hasattr` function as described above.
