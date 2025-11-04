@@ -267,7 +267,7 @@ If you find that you are having trouble completing the assignment using a functi
 
 The script should create a file using the file `open` function. This was demonstrated in class, and the script that was demoed is provided below. Make sure to use `file.close()` at the end, or make use of a `with` block as demonstrated in PfA 19.1.1.
 
-Your script does not *need* any printed output, as the catalog itself is being written to a file. But if you have trouble with the file I/O, generate all Markdown in `print` functions so that you can earn points for those tasks (see **Grading** below). Other than that, if you want to, you could use `print` to output status messages like "Currently cataloguing <workspace name>...".
+Your script does not *need* any printed output, as the catalog itself is being written to a file. But if you have trouble with the file I/O, generate all Markdown in `print` functions so that you can earn points for those tasks (see **Grading** below). Other than that, if you want to, you could use `print` to output status messages like "Currently cataloguing \<workspace name\>...".
 
 
 #### Tips for Completing the Assignment
