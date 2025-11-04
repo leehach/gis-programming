@@ -171,6 +171,7 @@ Note that if you search the ArcPy documentation you will find that there are oth
 
 #### Tips for Completing the Assignment
 
+* Follow course coding conventions, including using [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) for variable and function names, putting all imports at the top, etc.
 * All of the data must be in the same projection. The downloaded shapefiles are all already in State Plane Pennsylvania South **except** the SEPTA Regional Rails Stations. You have to specify the output coordinate system when you call `arcpy.Project_management`, but keep in mind that you can pass the name of a `.prj` file to the `out_coor_system` parameter. *All of the other shapefiles are in the desired coordinate system*. Use the `.prj` from one of these files as input to this parameter. (Pay close attention to the filenames. SEPTA High Speed Rail Stations are already in the correct coordinate system, and SEPTA High Speed Rail is not the same as SEPTA Regional Rail.)
 * In each case where you have to create a buffer, you need to buffer points from two different sources. It will be easiest if you merge the point layers first. Then you only have to run the buffer once. It will also be useful to use `dissolve_option = "ALL"` to dissolve the buffers.
 * Each toolbox function will create a new shapefile on disk. You can inspect these in ArcGIS Pro to see your progress. If do so, make sure to remove the layer or close ArcGIS Pro before proceeding. ArcGIS file locking may prevent Python from being able to work with the file.
@@ -272,7 +273,7 @@ Your script does not *need* any printed output, as the catalog itself is being w
 #### Tips for Completing the Assignment
 
 * Start your assignment in a fresh script, which should be empty except for our usual imports.
-* Follow course coding conventions, including using `snake_case` for variable and function names, putting all imports at the top, etc.
+* Follow course coding conventions, including using [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) for variable and function names, putting all imports at the top, etc.
 * Comment your code. Briefly describe what a variable or object is, what a for-loop is iterating or intended to do, what each output statement accomplishes.
 * Do ***not*** use command lines arguments (`sys.argv`) to control the script.
 * Assume the script will be run on a Windows computer with a correctly configured ArcPy environment, and with a data folder at `c:\gispy\data`.
