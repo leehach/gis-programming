@@ -16,11 +16,11 @@ Instructor Info:
 
 ## Course Description
 
-Building on previous coursework with Geographic Information Systems (GIS), students will learn computer programming in a GIS environment. Students will design and execute spatial data management and spatial analysis projects using automated geoprocessing functions available in the built-in scripting languages of prominent GIS software packages, with an emphasis on the Python programming language. Students will learn programming concepts such as variable typing, function definition, conditional evaluation, looping, and object-oriented programming. The course will also introduce geospatial programming strategies independent of any specific GIS software.
+Building on previous coursework with Geographic Information Systems (GIS), students will learn computer programming in a GIS environment. Students will design and execute spatial analysis and geovisualization projects using open sources geospatial Python. Students will learn programming concepts such as variable typing, function definition, conditional evaluation, looping, and object-oriented programming.
 
-Python has rapidly become the *de facto* standard for scientific computing. It is also the scripting language used by two prominent GIS packages, ArcGIS (proprietary) and QGIS (open source). There is also an extensive and growing ecosystem of Python packages for geospatial analysis. The course will begin by focusing on using Python and ArcPy for ArcGIS scripting and automation, while also introducing fundamental concepts in programming, using the textbook *Python for ArcGIS*. We will also make use of [DataCamp](https://www.datacamp.com/) interactive tutorials to learn Python syntax and reinforce these fundamental concepts. This part of the course will feature weekly exercises and quizzes on these basic concepts.
+Python has rapidly become the *de facto* standard for scientific computing. It is also the scripting language used by two prominent GIS packages, ArcGIS (proprietary) and QGIS (open source). There is also an extensive and growing ecosystem of Python packages for geospatial analysis. The course will introduce fundamental concepts in programming using the textbook *Think Python 3e*, and working with geospatial data science packages using the textbook *Introduction to Python for Geographic Data Analysis*. We will also make use of [DataCamp](https://www.datacamp.com/) interactive tutorials to learn Python syntax and reinforce these fundamental concepts. This first few weeks of the course will feature weekly exercises and quizzes on these basic concepts.
 
-The latter part of the course will introduce Python geospatial programming outside of the ArcGIS environment. In this part of the course, students will present tutorials on further topics in Python and ArcPy.
+The latter part of the course will go further into Python geospatial programming. In this part of the course, students will present tutorials on further topics.
 
 ## Prerequisites
 
@@ -29,9 +29,8 @@ The latter part of the course will introduce Python geospatial programming outsi
 
 ## Text
 
-* [*Python for ArcGIS*](https://link.springer.com/book/10.1007/978-3-319-18398-5), by Laura Tateosian
-
-When accessed on campus or through the Temple Library proxy server ([*Python for ArcGIS* via proxy](https://link-springer-com.libproxy.temple.edu/book/10.1007/978-3-319-18398-5)), you will be able to download this textbook in its entirety for free. You are also ***REQUIRED*** to obtain a print copy. The Springer "MyCopy" service is a print-on-demand service which will allow you to order a softcover copy for $39.99. You must be accessing SpringerLink on campus or log in through the Temple Library proxy server to get access to the MyCopy print-on-demand service.
+* [*Introduction to Python for Geographic Data Analysis*](https://pythongis.org/), by Henrikki Tenkanen, Vuokko Heikinheimo & David Whipp. This book is still in progress, and no print version is available.
+* [*Think Python 3e*](https://allendowney.github.io/ThinkPython/index.html), by Allen Downey. Acquiring a print version is highly recommended. See links on the textbook landing page.
 
 Online exercises will be assigned from DataCamp:
 
@@ -42,30 +41,31 @@ Online exercises will be assigned from DataCamp:
 * Week 1
     * Python Basics
 * Week 2
-    * Lists and Tuples
+    * Functions & Control of Flow 1
 * Week 3
-    * ArcPy Tools
-    * Quiz 1 - Python Basics, Strings
+    * Data Analysis with Pandas
+    * Quiz 1 - TBD
     * DataCamp - Introduction to Python due
 * Week 4
-    * Control of Flow, Conditionals
-    * Quiz 2 - Python Basics, Math
+    * Data Visualization
+    * Quiz 2 - TBD
 * Week 5
-    * Loops
-    * Quiz 3- Lists
+    * Collections - Lists, Tuples, and Dictionaries
+    * Quiz 3- TBD
 * Week 6
-    * Dictionaries
-    * Quiz 4 - Conditional Evaluation
+    * Functions & Control of Flow 2
+    * Quiz 4 - TBD
     * DataCamp - Intermediate Python due
 * Week 7
-    * Defining Functions
-    * Quiz 5 - Loops
+    * Spatial Analysis
+    * Quiz 5 - TBD
     * Programming Assignment 1 - Vector Analysis due
 * Week 8
-    * Pandas and GeoPandas
-    * Quiz 6 - Dictionaries
+    * Raster Analysis
+    * Quiz 6 - TBD
     * DataCamp - Introduction to Functions in Python
 * Week 9
+    * Geovisualization
     * Quiz 7 - Defining Functions
 * Week 10
     * Student-Led Tutorial Presentation
@@ -99,8 +99,8 @@ Programming Quizzes (8)
 : 3 points each for quizzes 6 through 8.
 : Exercises (6): 1 bonus point each (6 max).
 
-DataCamp (4)
-: 60 base score
+DataCamp (5)
+: 50 base score
 : 10 points each course completed fully
 
 Programming Assignments (3)

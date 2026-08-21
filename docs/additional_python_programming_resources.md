@@ -7,7 +7,6 @@ As URLs change with some frequency, please bring to my attention any links which
 ## Instruction
 
 * [Real Python](https://realpython.com/) – This is an extensive and growing collection of Python tutorials. The tutorials are focused, detailed, and well-written. Some are available only to subscribers, many are free.
-* [Think Python, 2e](http://greenteapress.com/wp/think-python-2e/) – This is a free online textbook which provides an introduction to computer science using Python. A printed version is also available.
 * [A large number of Python videos are available through Temple's LinkedIn Learning subscription](https://www.linkedin.com/learning/topics/programming-languages?software=Python). You may explore them for topics of interest, but if you need reinforcement on the material we are covering in this course, I would suggest:
     * [Python Essential Training](https://www.linkedin.com/learning/python-essential-training-18764650)
 
