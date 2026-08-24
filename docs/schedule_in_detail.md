@@ -22,7 +22,7 @@ In the following list:
     * Tues
         * Meeting: Functions & Control of Flow 1
     * Wed
-        **Due Date:** DataCamp - Introduction to Python
+        * **Due Date:** DataCamp - Introduction to Python
 * Week 3 (9/7 - 9/11)
     * Reading
         * PythonGIS 3
