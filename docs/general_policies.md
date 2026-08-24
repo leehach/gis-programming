@@ -14,7 +14,7 @@ Any student who has a need for accommodations based on the impact of a documente
 
 ## Statement on Academic Freedom
 
-Freedom to teach and freedom to learn are inseparable facets of academic freedom. The University has adopted a policy on Student and Faculty Academic Rights and Responsibilities (Policy # 03.70.02) which can be downloaded from [http://policies.temple.edu/getdoc.asp?policy_no=03.70.02](http://policies.temple.edu/getdoc.asp?policy_no=03.70.02).
+Freedom to teach and freedom to learn are inseparable facets of academic freedom. The University has adopted a policy on Student and Faculty Academic Rights and Responsibilities (Policy # 03.70.02) which can be downloaded from [ https://secretary.temple.edu/sites/secretary/files/policies/03.70.02.pdf?cb=1787132056](https://secretary.temple.edu/sites/secretary/files/policies/03.70.02.pdf?cb=1787132056).
 
 ## AI Use
 

@@ -111,7 +111,7 @@ Details forthcoming.
 
 ### Assignment 2: Raster Operations (10 points)
 
-This assignment is based on [Lab 7 - Raster Operations](https://github.com/temple-geography/fundamentals-arcgis-pro/blob/master/Lab_06_Vector_Operations.md) from GUS 5062 - Fundamentals of GIS. That lab exercise uses raster operations that you should be familiar with such as mosaicking, masking, zonal statistics, etc., to calculate the mean percent impervious surface for municipalities in Delaware County, PA. Many of you will have taken GUS 5062 and completed Lab 7 in ArcGIS Pro. Now you will see how to automate it using Python. For those of you unfamiliar with the exercise, reading the assignment prior to starting will give you a little more context.
+This assignment is based on [Lab 7 - Raster Operations](https://github.com/temple-geography/fundamentals-arcgis-pro/blob/master/Lab_07_Raster_Operations.md) from GUS 5062 - Fundamentals of GIS. That lab exercise uses raster operations that you should be familiar with such as mosaicking, masking, zonal statistics, etc., to calculate the mean percent impervious surface for municipalities in Delaware County, PA. Many of you will have taken GUS 5062 and completed Lab 7 in ArcGIS Pro. Now you will see how to automate it using Python. For those of you unfamiliar with the exercise, reading the assignment prior to starting will give you a little more context.
 
 
 #### Deliverables
