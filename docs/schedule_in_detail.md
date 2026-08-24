@@ -17,7 +17,7 @@ In the following list:
         * Meeting: Python Basics
 * Week 2 (8/31 - 9/4)
     * Reading
-        * TP3 5 (3, 4 covers overlapping material)
+        * TP3 5 (3 covers redundant material, 4 is useful but optional)
         * PythonGIS 2.4, 2.6 (2.5 covers redundant material)
     * Tues
         * Meeting: Functions & Control of Flow 1
