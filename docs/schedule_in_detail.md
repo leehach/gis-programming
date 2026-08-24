@@ -12,13 +12,13 @@ In the following list:
 * Week 1 (8/24 - 8/28)
     * Reading
         * TP3 1-2
-        * PythonGIS 2.2 (2.1, 2.3, 2.8 covers redundant material)
+        * PythonGIS 2.2, 2.3 (2.1 covers redundant material; 2.8 has some useful parts but also some redundancy--I'll go over the useful parts in class)
     * Tues
         * Meeting: Python Basics
 * Week 2 (8/31 - 9/4)
     * Reading
-        * TP3 5 (3 covers redundant material, 4 is useful but optional)
-        * PythonGIS 2.4, 2.6 (2.5 covers redundant material)
+        * PythonGIS 2.4-2.6
+        * TP3 5 (optional, read *instead* of PythonGIS 2.5, but make sure to read *after* PythonGIS 2.6)
     * Tues
         * Meeting: Functions & Control of Flow 1
     * Wed
