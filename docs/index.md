@@ -1,6 +1,6 @@
 Meeting:
 
-* Tuesday 5:30-8pm, Gladfelter 310
+* Tuesday 5:30-8pm, Gladfelter 341
 
 Instructor Info:
 
