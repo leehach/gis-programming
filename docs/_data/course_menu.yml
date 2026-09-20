@@ -18,8 +18,8 @@
       link: /python_module_structure
 - label: Software Installation and Setup
   items:
-    - name: Placeholder
-      link: /placeholder
+    - name: OneDrive & Data Science
+      link: /onedrive_and_data_science
 
 ################################
 # Sample format
