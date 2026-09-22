@@ -47,7 +47,7 @@ In the following list:
         * **Due Date:** DataCamp - Data Manipulation with Pandas
 * Week 6 (9/28 - 10/2)
     * Reading
-        * TP3 6-8
+        * TP3 6-8 (skim or skip sections 8.8 and 8.9 on regular expressions)
     * Tues
         * Meeting: Functions & Control of Flow 2
         * Quiz 4: Conditionals
