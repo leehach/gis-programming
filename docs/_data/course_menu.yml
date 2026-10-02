@@ -16,6 +16,8 @@
       link: /loops_practice
     - name: Python Module Structure
       link: /python_module_structure
+    - name: Keeping API Keys Secret
+      link: keeping_api_keys_secret
 - label: Software Installation and Setup
   items:
     - name: OneDrive & Data Science
