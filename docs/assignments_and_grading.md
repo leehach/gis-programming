@@ -97,17 +97,28 @@ These will be two short programming assignments that will build on material lear
 
 This assignment is based on [Lab 6 - Vector Operations](https://github.com/temple-geography/fundamentals-arcgis-pro/blob/master/Lab_06_Vector_Operations.md) from GUS 5062 - Fundamentals of GIS. That lab exercise uses vector operations that you should be familiar with such as buffering, intersection, erasing, etc., to identify an area in Philadelphia suitable for a new store selling healthy foods. Many of you will have taken GUS 5062 and completed Lab 6 in ArcGIS Pro. Now you will see how to automate it using Python. For those of you unfamiliar with the exercise, reading the assignment prior to starting will give you a little more context.
 
-
+A shapefile of the Philadelphia city limits and SEPTA routes and a geopackage of neighbhorhoods are provided creating the final map of the target areas. `City_Limits.shp` and most analysis files are in Pennsylvania State Plane South. `SEPTAGISRegionalRailStations_2016.shp`, `SEPTARoutesSpring2016.shp`, and `philadelphia_neighborhoods.gpkg` are in WGS84 and will have to be reprojected to PA State Plane South.
 
 #### Deliverables
 
-* A Jupyter notebook with narrative describing the steps being completed and the code to complete the analysis.
-* The area of the largest contiguous zone that satisfies all criteria, in a text block at the end of the notebook.
-* A map of the final layer of candidate zones (all candidate areas, not just the largest one), as the output of a cell blaock at the end of the notebook.
+* A Jupyter notebook with narrative describing the steps being completed and the code to complete the analysis, along with maps of the results of intermediate spatial operations.
+* The area of the largest contiguous zone that satisfies all criteria, output by a code cell at the end of the notebook.
+* A map of the final layer of candidate zones (all candidate areas, not just the largest one), with a basemap and SEPTA routes, output by a code cell at the end of the notebook.
 
 #### Evaluation
 
-Details forthcoming.
+One point will be awarded for each of the following:
+
+1. Create a notebook that runs to completion with no errors.
+2. Read all analysis files from a subfolder of the notebook folder, or a **relative path** to a datafolder of your choice. Filepaths should be constructed as the concatenation of a **data** folder and the **filename**, with optional subfolders within the data folder.
+3. Use course coding conventions throughout, including using `lowercase_with_underscores` for all variable names.
+4. Correctly reproject SEPTA Regional Rail Stations shapefile (and SEPTA Routes and the Philadelphia Neighborhoods, if used).
+5. Correctly buffer Healthy Corner Stores and Farmers Markets to 1200 feet. Display a map of the buffer just created.
+6. Correctly buffer SEPTA High Speed and Regional Rail Stations to 2000 feet. Display a map of the buffer just created.
+7. Construct correct inclusion zone. Display a map of the inclusion zone.
+8. Correctly combine inclusion and exclusion zones to create a layer of candidate areas. Display a map of the target areas, along with regional rail routes, on top of a basemap of the Philly city limits or neighborhoods.
+9. Correctly add an area column to layer of candidate areas. Output the area of the *largest* target area using the `max` method on the area column or the `sort_values` or `nlargest` data frame methods.
+10. Provide adequate comments throughout your code.
 
 ### Assignment 2: Raster Operations (10 points)
 
